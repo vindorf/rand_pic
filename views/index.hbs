@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>bilder</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
+  <body>
+    <h2>bilder slide</h2>
+    <div>
+
+      <img src="{{selectedPic }}" alt="" width="300" />
+
+    </div>
+
+    <script>
+      function reloadPage() {
+    location.reload();
+  }
+
+  // setInterval, um die Funktion in regelmäßigen Abständen aufzurufen
+  var reloadInterval = setInterval(reloadPage, 2000);
+        </script>
+  </body>
+</html>
